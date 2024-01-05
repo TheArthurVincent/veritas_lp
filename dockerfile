@@ -12,5 +12,5 @@ RUN npm run build
 # If you are building your code for production
 # RUN npm ci --omit=dev
 # Bundle app source
-EXPOSE 2225
+EXPOSE 3000
 CMD [ "npm", "start" ]
