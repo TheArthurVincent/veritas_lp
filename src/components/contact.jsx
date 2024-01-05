@@ -7,33 +7,36 @@ const initialState = {
   email: "",
   message: "",
 };
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [themessage, setMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
   const clearState = () => setState({ ...initialState });
-  
-  
-  const handleSubmit = (e) => {
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
+    try {
+      await emailjs.send(
+        "service_nclr58t",
+        "template_sqtzkz8",
+        {
+          to_name: "arthurcardosocorp@gmail.com",
+          from_name: email,
+          message: message,
         },
-        (error) => {
-          console.log(error.text);
-        }
+        "6wagjIYRZpgGApc4x"
       );
+      console.log("E-mail enviado com sucesso!");
+      clearState();
+    } catch (error) {
+      console.error("Erro ao enviar e-mail:", error);
+    }
   };
   return (
     <div>
@@ -42,11 +45,8 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
+                <h2>Fale comigo</h2>
+                <p>Vamos marcar nossa aula teste gratuitamente?</p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
@@ -93,27 +93,21 @@ export const Contact = (props) => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  Enviar
                 </button>
               </form>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Contact Info</h3>
-              <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Address
-                </span>
-                {props.data ? props.data.address : "loading"}
-              </p>
+              <h3>Contato</h3>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
-                </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                  <i className="fa fa-whatsapp"></i> Whatsapp
+                </span>
+                +55 11 91585-7807
               </p>
             </div>
             <div className="contact-item">
@@ -121,7 +115,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                arvinenglishschool@gmail.com
               </p>
             </div>
           </div>
@@ -130,18 +124,18 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
+                    <a href="https://www.instagram.com/thearthurvincent_/">
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
+                    <a href="https://www.youtube.com/channel/UCkUao0hajMxG6CRMcn9CVKg">
                       <i className="fa fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://wa.me/5511915857807">
+                      <i className="fa fa-whatsapp"></i>
                     </a>
                   </li>
                 </ul>
@@ -150,16 +144,40 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-      <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
-          </p>
-        </div>
-      </div>
+      <footer
+        style={{
+          bottom: "0vh",
+          fontSize: "12px",
+          alignItems: "center",
+          backgroundColor: "#111",
+          color: "#eee",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-evenly",
+          width: "100vw",
+        }}
+      >
+        <img
+          style={{
+            maxWidth: "6rem",
+          }}
+          src="https://ik.imagekit.io/vjz75qw96/assets/arvin_visuals/arvintranmsp?updatedAt=1703788108765"
+          alt="logo arvin"
+        />
+        <span
+          style={{
+            marginBottom: "1rem",
+          }}
+        >
+          This website is powered by ARVIN ENGLISH SCHOOL © Some rights reserved{" "}
+          <br />
+          Arthur Vincent
+          <br />
+          arvinenglishschool@gmail.com
+          <br />
+          +55 11 91585-7807
+        </span>
+      </footer>
     </div>
   );
 };

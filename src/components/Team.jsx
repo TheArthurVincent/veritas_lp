@@ -5,13 +5,19 @@ export const Team = (props) => {
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
+          {/* <h2>Talking Business</h2> */}
+          <img
+            style={{ maxWidth: "40rem", marginBottom: "2rem" }}
+            src="https://ik.imagekit.io/vjz75qw96/assets/arvin_visuals/tb-color.png?updatedAt=1687346451564"
+            alt=""
+          />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Nossa plataforma especializada em inglês empresarial, proporcionando
+            habilidades essenciais para destacar-se no mundo corporativo de
+            forma eficaz.
           </p>
         </div>
-        <div id="row">
+        {/* <div id="row">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
@@ -26,7 +32,7 @@ export const Team = (props) => {
                 </div>
               ))
             : "loading"}
-        </div>
+        </div> */}
       </div>
     </div>
   );

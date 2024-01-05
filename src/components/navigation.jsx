@@ -1,6 +1,43 @@
 import React from "react";
 
 export const Navigation = (props) => {
+  const menuObjeto = {
+    nossaPlataforma: {
+      label: "Nossa plataforma",
+      link: "#features",
+    },
+    sobre: {
+      label: "Sobre",
+      link: "#about",
+    },
+    servicos: {
+      label: "Serviços",
+      link: "#services",
+    },
+    // galeria: {
+    //   label: "Galeria",
+    //   link: "#portfolio",
+    // },
+    // testemunhos: {
+    //   label: "Testemunhos",
+    //   link: "#testimonials",
+    // },
+    talkingBusiness: {
+      label: "Talking Business",
+      link: "#team",
+    },
+    contato: {
+      label: "Contato",
+      link: "#contact",
+    },
+    soualuno: {
+      label: "Sou aluno",
+      link: "https://portal.arthurvincent.com.br/",
+    },
+  };
+
+  const menuArray = Object.entries(menuObjeto);
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -18,7 +55,16 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            <img
+              style={{
+                maxWidth: "10rem",
+                display: "flex",
+                alignItems: "center",
+                marginBottom: "rem",
+              }}
+              src="https://ik.imagekit.io/vjz75qw96/assets/arvin_visuals/logo.png?updatedAt=1687346649448"
+              alt=""
+            />
           </a>{" "}
         </div>
 
@@ -27,41 +73,19 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="#features" className="page-scroll">
-                Features
-              </a>
-            </li>
-            <li>
-              <a href="#about" className="page-scroll">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#services" className="page-scroll">
-                Services
-              </a>
-            </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href="#team" className="page-scroll">
-                Team
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="page-scroll">
-                Contact
-              </a>
-            </li>
+            {menuArray.map(([key, value]) => (
+              <li key={key}>
+                <a
+                  href={value.link}
+                  className="page-scroll"
+                  style={{
+                    fontFamily: "Athiti",
+                  }}
+                >
+                  {value.label}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

@@ -7,13 +7,13 @@ export const About = (props) => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+            <img src="https://ik.imagekit.io/vjz75qw96/assets/Arvin%20Resources%20(2000%20x%202000%20px).png?updatedAt=1704484605690" className="img-responsive" alt="" />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>About Us</h2>
+              <h2>Sobre mim</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Why Choose Us?</h3>
+              <h3>Por que estudar comigo?</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>

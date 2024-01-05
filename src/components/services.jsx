@@ -5,11 +5,8 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+          <h2>O que ofereço</h2>
+          <p>Veja como aprenderemos juntos!</p>
         </div>
         <div className="row">
           {props.data

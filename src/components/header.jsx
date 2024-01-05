@@ -8,6 +8,10 @@ export const Header = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
+                <img src="https://ik.imagekit.io/vjz75qw96/assets/arvin_visuals/head-white.png?updatedAt=1687369608637" alt=""
+                
+                style={{maxWidth:"10rem"}}
+                />
                 <h1>
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
@@ -17,7 +21,7 @@ export const Header = (props) => {
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  Learn More
+                  Saiba mais
                 </a>{" "}
               </div>
             </div>

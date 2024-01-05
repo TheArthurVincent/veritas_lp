@@ -1,21 +1,21 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Estude Inglês Comigo!",
+    "paragraph": "Desde o básico até o Business English!."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Olá! Sou Arthur Vincent, fundador da Arvin English School. Tenho uma trajetória com o inglês desde os 5 anos e comecei a ensinar aos 17. Minha experiência inclui aprendizado prático e vivência em empresas multinacionais. Aprenda comigo em aulas voltadas para conversas práticas, ampliação do vocabulário e adaptação conforme suas necessidades. Vamos juntos alcançar seus objetivos no domínio do inglês!",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Flexibilidade: Aulas flexíveis para se ajustar à sua rotina.",
+      "ComunidadeAtiva: Participe de aulas coletivas dinâmicas.",
+      "Horarios de Reposicao: Horários flexíveis para reposição contínua.",
+      "EnfoquePersonalizado: Ensino dedicado às suas necessidades."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Fluencia Nativa: Instrução com fluência nativa para autenticidade.",
+      "Estrutura Completa: Infraestrutura abrangente para facilitar seus estudos.",
+      "Preços Competitivos: Valores acessíveis, alinhados ao mercado.",
+      "Entretenimento: Elementos de entretenimento para tornar o aprendizado envolvente e divertido."
     ]
   },
   "Gallery": [
@@ -67,66 +67,61 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-user",
+      "name": "Aulas Particulares",
+      "text": "Tenha aulas personalizadas que se adaptam ao seu ritmo de aprendizado."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-users",
+      "name": "Aulas ao Vivo Coletivas",
+      "text": "Participe de aulas dinâmicas em grupo para uma experiência de aprendizado colaborativa."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-desktop",
+      "name": "Plataforma Online",
+      "text": "Acesse conteúdos e recursos de aprendizado através de uma plataforma online intuitiva."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-laptop",
+      "name": "Recursos Tecnológicos",
+      "text": "Explore ferramentas e recursos tecnológicos para enriquecer o seu aprendizado."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-money",
+      "name": "Descontos por Disciplina",
+      "text": "Aproveite descontos exclusivos ao escolher aulas em disciplinas específicas."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"piojh\"",
+      "name": "Raquel Blotta"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"oyug.\"",
+      "name": "Leonardo Sanches"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"oyug.\"",
+      "name": "Jean Brito"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"oyug.\"",
+      "name": "Kaulienderson Ayres"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"oyug.\"",
+      "name": "Lariza Pontes"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"oyug.\"",
+      "name": "Bruno Gilli"
     }
   ],
   "Team": [
@@ -162,23 +157,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Conversação",
+      "text": "Desenvolva suas habilidades de comunicação através de aulas práticas e envolventes."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Gramática",
+      "text": "Aperfeiçoe sua gramática com aulas detalhadas e exercícios específicos."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Entrevistas de emprego",
+      "text": "Prepare-se para entrevistas de emprego com simulações e dicas personalizadas."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Inglês para Negócios!",
+      "text": "Elevação do seu inglês no ambiente empresarial com foco em vocabulário e situações práticas."
     }
   ]
 }
