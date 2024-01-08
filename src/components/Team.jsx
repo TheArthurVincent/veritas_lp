@@ -5,7 +5,6 @@ export const Team = (props) => {
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          {/* <h2>Talking Business</h2> */}
           <img
             style={{ maxWidth: "40rem", marginBottom: "2rem" }}
             src="https://ik.imagekit.io/vjz75qw96/assets/arvin_visuals/tb-color.png?updatedAt=1687346451564"
@@ -15,6 +14,10 @@ export const Team = (props) => {
             Nossa plataforma especializada em inglês empresarial, proporcionando
             habilidades essenciais para destacar-se no mundo corporativo de
             forma eficaz.
+          </p>
+          <p>
+            Aqui aprendemos todo o conteúdo necessário para que você fale inglês
+            corporativo de maneira fluente!
           </p>
         </div>
         {/* <div id="row">
