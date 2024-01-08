@@ -10,7 +10,6 @@ const initialState = {
 
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
-  const [themessage, setMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -33,6 +32,7 @@ export const Contact = (props) => {
         "6wagjIYRZpgGApc4x"
       );
       console.log("E-mail enviado com sucesso!");
+      alert("E-mail enviado com sucesso!");
       clearState();
     } catch (error) {
       console.error("Erro ao enviar e-mail:", error);
