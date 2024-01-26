@@ -48,7 +48,7 @@ export const Contact = (props) => {
                 <h2>Fale comigo</h2>
                 <p>Vamos marcar nossa aula teste gratuitamente?</p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              {/* <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -88,14 +88,14 @@ export const Contact = (props) => {
                     placeholder="Message"
                     required
                     onChange={handleChange}
-                  ></textarea>
+                  />
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
                   Enviar
                 </button>
-              </form>
+              </form> */}
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
